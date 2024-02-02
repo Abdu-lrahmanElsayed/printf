@@ -53,7 +53,7 @@ int _printf(const char *format, ...)
 			}
 			else if (*format == 'd' || *format == 'i')
 			{
-				int d = va_arg(args, int);
+				char d = va_arg(args, int);
 
 				write(1, &d, 1);
 				i++;
