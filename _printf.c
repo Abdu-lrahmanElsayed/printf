@@ -32,6 +32,7 @@ int _printf(const char *format, ...)
 			else if (*format == 'c')
 			{
 				char c = va_arg(args, int);
+
 				write(1, &c, 1);
 				i++;
 			}
