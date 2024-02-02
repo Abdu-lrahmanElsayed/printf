@@ -3,7 +3,7 @@
 /**
  * printc - print char.
  * @var: the specifid char.
- * Return: 0.
+ * Return: 1.
  */
 
 int printc(va_list val)
@@ -12,5 +12,5 @@ int printc(va_list val)
 
 	str = va_arg(val, int);
 	_putchar(str);
-	return (0);
+	return (1);
 }
