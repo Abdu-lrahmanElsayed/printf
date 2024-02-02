@@ -55,7 +55,7 @@ int _printf(const char *format, ...)
 			{
 				int d = va_arg(args, int);
 
-				write(1, format, d);
+				write(1, &d, 1);
 				i++;
 			}
 		}
