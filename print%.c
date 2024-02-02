@@ -8,6 +8,6 @@
 
 int print37(void)
 {
-	_puchar(37);
+	_putchar(37);
 	return (0);
 }

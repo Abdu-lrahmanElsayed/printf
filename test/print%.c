@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print% - prints % sign.
+ * print37 - prints % sign.
  *
  * Retrun: 0.
  */
 
-int print%(void)
+int print37(void)
 {
-	_puchar(37);
+	_putchar(37);
 	return (0);
 }
