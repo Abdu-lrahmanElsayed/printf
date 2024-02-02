@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print37 - prints % sign.
+ * print% - prints % sign.
  *
  * Retrun: 0.
  */
 
-int print37(void)
+int print%(void)
 {
 	_puchar(37);
 	return (0);

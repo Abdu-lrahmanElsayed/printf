@@ -9,7 +9,7 @@
 int _printf(const char *format, ...)
 {
 	match m[] = {
-		["%c", printc], ["%s", prints], ["%%", print37]
+		{"%c", printc}, {"%s", prints}, {"%%", print%}
 	};
 
 	va_list args;
@@ -37,6 +37,6 @@ int _printf(const char *format, ...)
 		i++;
 		len++;
 	}
-	va_end(args);
+	ve_end(args);
 	return (len);
 }
